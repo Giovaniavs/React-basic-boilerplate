@@ -1,0 +1,11 @@
+
+.first-component-box {
+  height: 30vh;
+  width: 100%;
+  margin: 0 0 100px 0;
+  background-color: rgb(95, 224, 84);
+}
+
+.first-component-title {
+  margin: 0 0 0 0;
+}

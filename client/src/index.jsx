@@ -1,11 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {
+  FirstComponent,
+  SecondComponent,
+  ThirdComponent,
+  FourthComponent,
+} from './components'
 
-import App from './App';
+function App() {
+  return (
+    <div className="app">
+      <FirstComponent />
+      <SecondComponent backgroundColor="second-component-box-red" title="Esse é o segundo componente!"/>
+      <ThirdComponent />
+      <FourthComponent />
+    </div>
+  );
+}
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root'),
-);
+ReactDOM.render(<App />,document.getElementById('root'));

@@ -1,0 +1,17 @@
+
+.third-component-box{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 30vh;
+}
+
+.third-component-img {
+  width: 80%;
+  height: 100%;
+}
+
+.third-component-button {
+  width: 20%;
+  height: 100%;
+}
